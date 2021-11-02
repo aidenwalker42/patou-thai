@@ -5,4 +5,5 @@ app.use(express.static("public"));
 app.get("/", function (req, res) {
   res.sendFile(__dirname + "/index.html");
 });
-server.listen(4000);
+let port = process.env.PORT || 5500;
+server.listen(port);
