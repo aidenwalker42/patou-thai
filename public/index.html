@@ -20,7 +20,7 @@
     </header>
     <div id="flexify">
         <div id="container">
-            <h1><a href="#">Patou Thai</a></h1>
+            <h1>Patou Thai</h1>
             <p id="quote">
             <i>
             In Thailand there's a term used for one whose love is true. For darling, sweetheart, or beloved, that word is PATOU</p>
@@ -43,6 +43,9 @@
                         Dinner Menu
                     </a>
                 </div>
+                <div id="drink-menu">
+                    <a href="patou-thai-menu-wine.pdf">Beer & Wine Menu</a>
+                </div>
             </div>
             <div id="hours">
                 <h2>Hours</h2>
@@ -55,30 +58,47 @@
     </div>
     <div id="carousel">
         <div class="owl-carousel owl-theme owl-centered">
-            <div class="item"><img src="http://patouthai.com/images/gallery/Bone-Curry.jpg"></div>
+            <div class="item"><img src="img/Bone-Curry.jpg"></div>
             <div class="item"><img src="img/shrimp-salad.jpg"></div>
-            <div class="item"><img src="http://patouthai.com/images/gallery/Basil-Chicken.jpg"></div>
-            <div class="item"><img src="http://patouthai.com/images/gallery/Chicken-Satay.jpg"></div>
-            <div class="item"><img src="http://patouthai.com/images/gallery/Chicken1.jpg"></div>
-            <div class="item"><img src="http://patouthai.com/images/gallery/Chicken2.jpg"></div>
-            <div class="item"><img src="http://patouthai.com/images/gallery/Curry.jpg"></div>
-            <div class="item"><img src="http://patouthai.com/images/gallery/DuCK-CHOO-CHEE.jpg"></div>
-            <div class="item"><img src="http://patouthai.com/images/gallery/Halibut.jpg"></div>
-            <div class="item"><img src="http://patouthai.com/images/gallery/Mango-Green-Tea-Ice-Cream.jpg"></div>
-            <div class="item"><img src="http://patouthai.com/images/gallery/PIK-KING-SHRIMP.jpg"></div>
-            <div class="item"><img src="http://patouthai.com/images/gallery/Salad.jpg"></div>
-            <div class="item"><img src="http://patouthai.com/images/gallery/Salmon-CHOO-CHEE.jpg"></div>
-            <div class="item"><img src="http://patouthai.com/images/gallery/Seafood.jpg"></div>
-            <div class="item"><img src="http://patouthai.com/images/gallery/Shrimp-Rolls.jpg"></div>
-            <div class="item"><img src="http://patouthai.com/images/gallery/Shrimp.jpg"></div>
-            <div class="item"><img src="http://patouthai.com/images/gallery/Softshell-Crab-Mango-Salsa.jpg"></div>
-            <div class="item"><img src="http://patouthai.com/images/gallery/Vegetable-Grill.jpg"></div>
+            <div class="item"><img src="img/Basil-Chicken.jpg"></div>
+            <div class="item"><img src="img/Chicken-Satay.jpg"></div>
+            <div class="item"><img src="img/Chicken1.jpg"></div>
+            <div class="item"><img src="img/Chicken2.jpg"></div>
+            <div class="item"><img src="img/Curry.jpg"></div>
+            <div class="item"><img src="img/DuCK-CHOO-CHEE.jpg"></div>
+            <div class="item"><img src="img/Halibut.jpg"></div>
+            <div class="item"><img src="img/Mango-Green-Tea-Ice-Cream.jpg"></div>
+            <div class="item"><img src="img/PIK-KING-SHRIMP.jpg"></div>
+            <div class="item"><img src="img/Salad.jpg"></div>
+            <div class="item"><img src="img/Salmon-CHOO-CHEE.jpg"></div>
+            <div class="item"><img src="img/Seafood.jpg"></div>
+            <div class="item"><img src="img/Shrimp-Rolls.jpg"></div>
+            <div class="item"><img src="img/Shrimp.jpg"></div>
+            <div class="item"><img src="img/Softshell-Crab-Mango-Salsa.jpg"></div>
+            <div class="item"><img src="img/Vegetable-Grill.jpg"></div>
         </div>
     </div>
     <div id="map-container">
         <div id="map">
             <h2>Location</h2>
             <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=69%20Leonard%20Street,%20Belmont,%20MA%2002478+(Patou%20Thai)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        </div>
+    </div>
+    <div id="reviews">
+        <h3>Reviews</h3>
+        <div id="review-links">
+            <div>
+                <a href="http://archive.boston.com/dining/globe_review/918/">"In Belmont, a darling spot for Thai"</a>
+                <i>
+                    November 27, 2003, Boston Globe
+                </i>
+            </div>
+            <div>
+                <a href="http://archive.boston.com/dining/globe_review/1219/">"The Most Authentic Restaurants: Thai"</a>
+                <i>
+                    October 09, 2005, Boston Globe
+                </i>
+            </div>
         </div>
     </div>
     <footer>
@@ -88,8 +108,8 @@
         </div>
         <div id="cc">© 2021 Patou Thai</div>
         <div id="socials">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
+            <a href="https://www.facebook.com/Patou-Thai-21409860107/" class="fa fa-facebook"></a>
+            <a href="http://twitter.com/patouthai" class="fa fa-twitter"></a>
         </div>
     </footer>
     
@@ -100,6 +120,9 @@ $('.owl-carousel').owlCarousel({
     center:true,
     loop:true,
     margin:10,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
     responsiveClass:true,
     responsive:{
         0:{

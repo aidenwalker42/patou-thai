@@ -103,6 +103,22 @@ a:active {
   flex-direction: column;
   align-items: center;
 }
+#drink-menu {
+  margin: 2rem;
+}
+#drink-menu a {
+  background-color: #282828;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+#drink-menu a:hover {
+  background-color: #63749f;
+  cursor: pointer;
+}
+#drink-menu a {
+  color: #f3f4f7;
+}
 #show-video {
   display: flex;
   align-items: center;
@@ -110,9 +126,12 @@ a:active {
 }
 #show-video > button {
   margin: 1rem 0;
-  background: #63749f;
+  background: #5a1010;
   padding: 0.5rem;
   border-radius: 0.25rem;
+}
+#show-video > button:hover {
+  background-color: #bd1e1e;
 }
 #show-video h4 {
   color: #f3f4f7;
@@ -163,8 +182,7 @@ a:active {
 }
 #map-container {
   width: 100%;
-  height: 800px;
-  background-color: #bd1e1e;
+  background-color: #63749f;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -174,11 +192,41 @@ a:active {
 }
 #map h2 {
   color: #f3f4f7;
+  margin-bottom: 3rem;
 }
 #map iframe {
   border-radius: 0.5rem;
+  margin-bottom: 3rem;
 }
-
+#reviews {
+  background-color: #a0af75;
+}
+#reviews h3 {
+  color: #f3f4f7;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem;
+}
+#reviews a {
+  color: #f3f4f7;
+  text-decoration: underline;
+  display: block;
+}
+#reviews a:hover {
+  color: #9fbaff;
+}
+#reviews i {
+  color: #f3f4f7;
+  display: block;
+}
+#review-links {
+  display: grid;
+  justify-items: center;
+  padding-bottom: 2rem;
+}
+#review-links div {
+  padding: 1rem;
+}
 /* Style all font awesome icons */
 .fa {
   padding: 20px;
